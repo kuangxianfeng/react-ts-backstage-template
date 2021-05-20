@@ -15,7 +15,7 @@ module.exports = {
             '@': resolve('./src'),
             "com": resolve('./src/components'),
             "css": resolve('./src/styles'),
-            "tool": resolve('./src/tools')
+            "tools": resolve('./src/tools')
         }),
         // 添加lessOptions配置，修改antd的主题色
         addLessLoader(
